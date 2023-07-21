@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+
+        <style>
+    .required-star {
+      color: red;
+    }
+
+    .container{
+    position:relative;
+    width:1200px;
+    height: 300px;
+    margin: 240px auto;
+    }
+    .container .box{
+    position:relative;
+    padding: 25px;
+    width:900px;
+    height:400px;
+    background:#f5f5f5;
+    border:1px solid #ccc;
+    border-radius:10px;
+    margin:20px auto;
+
+    hr{
+    margin:20px auto;
+    }
+
+    input[type="text"]{
+    outline:0;
+    width:100%;
+    margin-right:10px;
+
+
+    }
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <title>forms</title>
+    <center>
+    <h1><b>Complaints</b></h1>
+        <h5>Help us improve our service</h5><hr size="5px">
+    </center>
+    <form>
+        <label for="fname">Full Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="fname" name="fname" >
+        <input type="text" id="lname" name="lname"><br><br><br>
+
+        <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label>Where did we go wrong</label>
+        <textarea name="message" rows="5" cols="40" ></textarea> <br><br>
+
+        <center><input type="submit" value="Submit" style="background-color:red" ></center>
+
+</body>
+</html>

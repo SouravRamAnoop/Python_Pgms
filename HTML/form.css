@@ -1,0 +1,27 @@
+div{
+width:100%;
+margin-left:30%
+}
+
+hr
+{
+bottom-border:2px solid black;
+}
+
+
+label{
+text-align:left;
+}
+
+input[type="text"]
+{
+margin-left:1%;
+}
+
+#email,#phone{
+margin-left:3%
+}
+button{
+background-color:red;
+text-align:center;
+}

@@ -1,0 +1,27 @@
+
+table, th, td{
+border: 1px solid black;
+}
+
+tr:hover{
+background-color:#D6EEEE;
+}
+
+table{
+border-collapse:collapse;
+}
+
+th{
+background-color:violet;
+}
+
+td{
+background-color:lightblue;
+}
+
+h1{
+color:brown;
+}
+body{
+background-color:lightgreen;
+}
